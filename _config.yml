@@ -1,6 +1,6 @@
 # Profile information
-name: Fresh
-title: Fresh - Free Jekyll Theme
+name: Kyeong Joo Jung
+title: Kyeong Joo Jung
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -13,10 +13,10 @@ url: "artemsheludko.pw" # the base hostname & protocol for your site, e.g. http:
 facebook: #Add your Facebook
 twitter: #Add your Twitter
 google-plus: #Add your Google+
-github: #Add your Github
+github: https://github.com/iamkj03 #Add your Github
 
 # Contact form
-email: #your-email@domain.com
+email: iamkj03@naver.com #your-email@domain.com
 
 # Comments
 discus-identifier: # Add your Disqus identifier
