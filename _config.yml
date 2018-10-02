@@ -7,10 +7,10 @@ baseurl:  # the subpath of your site, e.g. /blog
 url: "artemsheludko.pw" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social
-facebook: #Add your Facebook
+facebook: iamkj03 #Add your Facebook
 twitter: #Add your Twitter
 google-plus: #Add your Google+
-github: https://github.com/iamkj03 #Add your Github
+github: iamkj03 #Add your Github
 
 # Contact form
 email: iamkj03@naver.com #your-email@domain.com
