@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "An old house"
-date:   2017-03-30 00:00:00
-img: arduino_Trim.mp4
+title:  "Sending camera motion to LED"
+date:   2016-12-06 00:00:00
+img: arduino.gif
 description: sunt in culpa qui officia deserunt mollit anim id est laborum.
 ---
 
