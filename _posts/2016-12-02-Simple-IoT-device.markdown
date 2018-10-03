@@ -2,10 +2,11 @@
 layout: post
 title:  "Simple IoT device"
 img: iot.jpg
+img: iot.gif
 date:   2016-12-02 00:00:00 +0200
 description: Preventing fire secondary damage. Video attached
 ---
-img: iot.gif
+
 
 Ut ut dolor vehicula, aliquam elit vitae, venenatis velit. Pellentesque sollicitudin vestibulum ligula, in volutpat elit vehicula vel. Mauris massa ante, vestibulum eget nisi vel, elementum tempor risus. Vivamus tincidunt ligula lorem. In viverra suscipit enim et finibus. Cras porta massa vitae ligula pretium dapibus. Ut nisl nulla, sollicitudin nec viverra quis, bibendum vel tortor. Aenean at porttitor dolor, id tristique purus. Phasellus consequat justo in elit congue sagittis. Cras at dolor molestie nisl feugiat scelerisque.
 
