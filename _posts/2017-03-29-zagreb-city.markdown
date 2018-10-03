@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Zagreb city"
-img: zagreb_city.jpg
-date:   2017-03-29 00:00:00 +0200
-description: Cras ac ex sit amet leo rhoncus elementum eget eget eros. Curabitur venenatis lacus eget tempus consequat. Duis feugiat vehicula bibendum. Aliquam imperdiet tortor in diam viverra scelerisque. Vestibulum erat odio, rutrum nec volutpat et, mattis id diam.
+title:  "Simple IoT device"
+img: iot.jpg
+date:   2016-12-02 00:00:00 +0200
+Description: Preventing fire secondary damage. Video attached
 ---
 
-Cras ac ex sit amet leo rhoncus elementum eget eget eros. Curabitur venenatis lacus eget tempus consequat. Duis feugiat vehicula bibendum. Aliquam imperdiet tortor in diam viverra scelerisque. Vestibulum erat odio, rutrum nec volutpat et, mattis id diam. Vivamus nec nunc placerat, laoreet sapien ac, dignissim magna. Sed eu lorem eget eros bibendum dignissim. Etiam eget mi non turpis pellentesque dignissim et quis turpis. Pellentesque efficitur enim in lorem consectetur scelerisque.
+img: iot.gif
 
 Ut ut dolor vehicula, aliquam elit vitae, venenatis velit. Pellentesque sollicitudin vestibulum ligula, in volutpat elit vehicula vel. Mauris massa ante, vestibulum eget nisi vel, elementum tempor risus. Vivamus tincidunt ligula lorem. In viverra suscipit enim et finibus. Cras porta massa vitae ligula pretium dapibus. Ut nisl nulla, sollicitudin nec viverra quis, bibendum vel tortor. Aenean at porttitor dolor, id tristique purus. Phasellus consequat justo in elit congue sagittis. Cras at dolor molestie nisl feugiat scelerisque.
 
