@@ -3,8 +3,8 @@ layout: post
 title:  "Sending camera motion to LED"
 date:   2016-12-06 00:00:00
 img: arduino.jpg
-description: video attached
 img: arduino.gif
+description: video attached
 ---
 
 

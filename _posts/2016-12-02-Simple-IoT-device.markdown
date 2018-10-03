@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Simple IoT device"
+date:   2016-12-02 00:00:00 +0200
 img: iot.jpg
 img: iot.gif
-date:   2016-12-02 00:00:00 +0200
 description: Preventing fire secondary damage. Video attached
 ---
 
