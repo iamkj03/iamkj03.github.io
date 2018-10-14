@@ -12,4 +12,4 @@ Assuming a fire inside a laboratory or inside a building that is dangerous to a 
 
 We used TinyOS2X and Cygwin for the iot environment.
 
-![Report(Korean)](microprocessor.pdf)
+Press [Report(Korean)](microprocessor.pdf) to open
