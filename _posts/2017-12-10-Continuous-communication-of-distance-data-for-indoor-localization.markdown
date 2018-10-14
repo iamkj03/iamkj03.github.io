@@ -10,7 +10,6 @@ This project was to research on technologies used for indoor localization. Our w
 
 Our work uses ultrasonic sensor, and RF sensor to calculate the distance and to communicate each other.
 
-Design Document attached
 Press [Design Document](Design Document.pdf) to open
 
 ![](indoor.jpg)
