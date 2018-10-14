@@ -12,8 +12,10 @@ Press [Final Paper(Not published)](Music Genre Classification via Image Classifi
 We thought the sound can be converted to an image and the image can be used as a genre (image) classification data.
 
 ![blues](blues.00000.png)
-![classical](classical.00083.png)
+blues
 
+![classical](classical.00083.png)
+classical
 and so on..
 
 We got the data(.au files) from [GTZAN set](http://marsyasweb.appspot.com/download/data_sets/)
@@ -22,6 +24,6 @@ We got the data(.au files) from [GTZAN set](http://marsyasweb.appspot.com/downlo
 
 We used 3 different image classifier in Keras.
 
-![Result](music.jpg)
+![Result](music.JPG)
 
 The result was as shown. (0.855 AUC)
