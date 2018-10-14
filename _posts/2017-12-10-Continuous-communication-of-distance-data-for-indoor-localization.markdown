@@ -10,7 +10,8 @@ This project was to research on technologies used for indoor localization. Our w
 
 Our work uses ultrasonic sensor, and RF sensor to calculate the distance and to communicate each other.
 
+Design Document attached
+![Design Document](Design Document.pdf)
 
 ![](indoor.jpg)
 ![](indoor2.jpg)
-![indoor2.jpg](iamkj03.github.io\Continuous-communication-of-distance-data-for-indoor-localization\indoor2.jpg)
