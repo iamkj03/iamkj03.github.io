@@ -10,6 +10,7 @@ Recently, malicious mining using CPUs has become a trend - mining which the task
 
 ![](hardware.jpg)
 There is a task which uses about 55% of CPU usages.
+
 a), b) show the difference of the CPU usages without and with our method. a) shows the usage without our method and b) shows the usage with our method. As shown in Figures, a) shows 55% of CPU usage and b) shows 3% of CPU usages.
 
 If this method is used in servers or clients, it would cause lots of dangers such as malicious mining from people using the servers. 
@@ -17,5 +18,3 @@ If this method is used in servers or clients, it would cause lots of dangers suc
 This is the [poster](Poster.pdf) presented at ASIACCS 2018.
 
 It was also presented at [HITB Amsterdam 2018](https://conference.hitb.org/hitbsecconf2018ams/speakers/kyeong-joo-jung/). [Video](https://www.youtube.com/watch?v=F26hu2q9Nus)
-
-![Poster](Poster.pdf)
