@@ -1,10 +1,67 @@
+<style>
+  /* 1. 사이드바 배경을 전문적인 다크 그레이(#1e2022)로 변경 */
+  .sidebar {
+    background: #1e2022 !important;
+    background-color: #1e2022 !important;
+  }
+  
+  /* 2. 로고와 텍스트를 흰색으로 변경 */
+  .sidebar-logo .logo {
+    color: #ffffff !important;
+    font-weight: 700; /* 굵게 */
+    font-size: 1.2em;
+  }
+  
+  /* 3. 메뉴 링크 색상 변경 (기본 연회색 -> 마우스 올리면 흰색) */
+  .sidebar-menu .menu-items .menu-links {
+    color: #bbbbbb !important;
+    font-weight: 500;
+  }
+  .sidebar-menu .menu-items .menu-links:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+  }
+
+  /* 4. 소셜 아이콘 색상 */
+  .sidebar-social .social-links {
+    color: #888 !important;
+  }
+  .sidebar-social .social-links:hover {
+    color: #fff !important;
+  }
+
+  /* 5. [중요] CV 다운로드 버튼 스타일 (눈에 확 띄게) */
+  .cv-button {
+    display: block;
+    width: 80%;
+    margin: 20px auto 0;
+    padding: 12px 0;
+    background-color: #ffffff !important; /* 배경 흰색 */
+    color: #1e2022 !important; /* 글자 검은색 */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none !important;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: all 0.2s ease;
+  }
+  
+  .cv-button:hover {
+    background-color: #f0f0f0 !important;
+    transform: translateY(-2px); /* 마우스 올리면 살짝 뜸 */
+    box-shadow: 0 6px 8px rgba(0,0,0,0.4);
+  }
+</style>
+
 <aside class="sidebar">
   <div class="sidebar-container">
+    
     <div class="sidebar-logo">
       <a href="{{site.baseurl}}/" class="logo">Kyeong Joo Jung</a>
     </div>
 
     <menu class="sidebar-menu">
+      <li class="menu-items"><a class="menu-links" href="#profile">Profile</a></li>
       <li class="menu-items"><a class="menu-links" href="#education">Education</a></li>
       <li class="menu-items"><a class="menu-links" href="#interests">Interests</a></li>
       <li class="menu-items"><a class="menu-links" href="#software">Software</a></li>
@@ -31,11 +88,9 @@
       </li>
     </div>
     
-    <div style="text-align: center; margin-top: 20px;">
-        <a href="{{site.baseurl}}/assets/CV_KyeongJoo_Jung.pdf" class="btn btn--primary" target="_blank" style="display: inline-block; padding: 10px 20px; border: 1px solid #333; text-decoration: none; color: #333; border-radius: 5px;">
-            <i class="fa fa-file-pdf-o"></i> Download CV
-        </a>
-    </div>
+    <a href="{{site.baseurl}}/assets/CV_KyeongJoo_Jung.pdf" target="_blank" class="cv-button">
+      <i class="fa fa-download"></i> Download CV
+    </a>
 
   </div>
 </aside>
