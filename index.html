@@ -2,30 +2,224 @@
 layout: default
 ---
 
-{% for post in paginator.posts %}
-<article class="main-article">
-  <div class="wrap-content">
-    <header class="header-article">
-      <h2 class="title-article"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-      <div class="post-date"><span>{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
-    </header>
-    {% if post.img %}
-       <img class="post-image" src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
-    {% endif %}
-    <p>{{post.description}} <a class="more" href="{{post.url | prepend: site.baseurl}}">(Read more...)</a></p>
+<section class="profile-section" style="margin-bottom: 40px;">
+  <div style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap;">
+    <img src="{{site.baseurl}}/assets/img/kj2.jpg" alt="Kyeong Joo Jung" style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 3px solid #eee;">
+    <div>
+      <h1 style="margin-bottom: 10px;">Kyeong Joo Jung</h1>
+      <p style="font-size: 1.1em; color: #555; margin-bottom: 5px;">
+        <strong>Ph.D. Candidate in Computer Science</strong><br>
+        The Ohio State University
+      </p>
+      <p style="color: #777;">
+        Co-advised by Prof. Raghu Machiraju & Prof. Dongjun Chung
+      </p>
+      <p style="margin-top: 15px;">
+        My research focuses on building <strong>Domain-Specific Foundation Models</strong> for Precision Oncology. 
+        I bridge the gap between AI engineering and clinical discovery by integrating H&E histology and spatial proteomics.
+      </p>
+    </div>
   </div>
-</article>
-{% endfor %}
+</section>
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous"><i class="fa fa-chevron-left" aria-hidden="true"></i> Previous</a>
-  {% else %}
-    <span class="previous"><i class="fa fa-chevron-left" aria-hidden="true"></i> Previous</span>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Next <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-  {% else %}
-    <span class="next ">Next <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
-  {% endif %}
-</div>
+<hr>
+
+<section id="education" style="margin-bottom: 40px;">
+  <h2>Education</h2>
+  <ul style="list-style: none; padding-left: 0;">
+    <li style="margin-bottom: 20px;">
+      <strong>Ph.D. in Computer Science</strong> <span style="float: right; color: #666;">2019 - 2026 (Expected)</span><br>
+      The Ohio State University, OH, USA<br>
+      <em style="font-size: 0.95em; color: #555;">Dissertation: From Cells to Clinical Outcomes: Building a Domain-Specific Foundation Model through AI/ML-Enriched Spatial Proteomics</em>
+    </li>
+    <li style="margin-bottom: 20px;">
+      <strong>M.S. in Computer Science</strong> <span style="float: right; color: #666;">2025</span><br>
+      The Ohio State University, OH, USA
+    </li>
+    <li style="margin-bottom: 20px;">
+      <strong>M.S. in Computer Science</strong> <span style="float: right; color: #666;">2017 - 2018</span><br>
+      Stony Brook University (SUNY Korea)<br>
+      <em>Advisor: Bong Jun Choi (Distributed Intelligence Lab)</em>
+    </li>
+    <li>
+      <strong>B.S. in Computer Engineering</strong> <span style="float: right; color: #666;">2011 - 2017</span><br>
+      Yonsei University, Seoul, Korea
+    </li>
+  </ul>
+</section>
+
+<hr>
+
+<section id="interests" style="margin-bottom: 40px;">
+  <h2>Research Interests</h2>
+  <ul>
+    <li><strong>AI/ML for Precision Oncology & Computational Pathology</strong></li>
+    <li><strong>Foundation Models & Big Data</strong></li>
+    <li><strong>Spatial Bioinformatics</strong></li>
+    <li><strong>Privacy-Preserving Healthcare AI</strong></li>
+  </ul>
+</section>
+
+<hr>
+
+<section id="software" style="margin-bottom: 40px;">
+  <h2>Open Source Software & Infrastructure</h2>
+  
+  <div style="margin-bottom: 30px;">
+    <h3>TOPAZ <a href="https://chunglab.bmi.osumc.edu/TOPAZ/" target="_blank" style="font-size: 0.6em; vertical-align: middle;" class="btn btn-sm">[View Tool]</a></h3>
+    <p><em>Automated cell and gland type classification using spatial proteomics (R Shiny).</em></p>
+    <img src="{{site.baseurl}}/assets/img/topaz_capture.png" alt="TOPAZ Interface" style="width: 100%; max-width: 600px; border: 1px solid #ddd; margin-top: 10px; border-radius: 5px;">
+  </div>
+
+  <div style="margin-bottom: 30px;">
+    <h3>Multi-Task Foundation Representation Tool (In Prep)</h3>
+    <p><em>Developing a framework for immune-tumor gland architecture analysis in prostate cancer histology (Python/PyTorch).</em></p>
+  </div>
+
+  <div>
+    <h3>Lab Infrastructure</h3>
+    <ul>
+      <li><strong>Server Administration:</strong> Managed research lab servers (EPEL, SCL, renv) to ensure reproducibility.</li>
+      <li><strong>Deployment:</strong> Deployed multiple web apps on Linux servers (e.g., VeteranST, spaDesign, SCOPE).</li>
+    </ul>
+  </div>
+</section>
+
+<hr>
+
+<section id="publications" style="margin-bottom: 40px;">
+  <h2>Publications</h2>
+  
+  <h3>Methodology Papers</h3>
+  <ul style="padding-left: 20px;">
+    <li style="margin-bottom: 10px;">
+      <strong>Jung KJ</strong>, Ghose S, Cho S, et al. (2026). "Annotation-Free Prediction of Cancer Cells and Glands and Spatial Analysis of Immune Cells." <em>PLOS Computational Biology</em> (Under Review). 
+      <a href="#">[bioRxiv]</a>
+    </li>
+    <li style="margin-bottom: 10px;">
+      Xie J*, <strong>Jung KJ*</strong>, et al. (2024). "Analysis of community connectivity in spatial transcriptomics data." <em>Frontiers in Applied Mathematics and Statistics</em>, 10, 1378370. 
+      <a href="https://doi.org/10.3389/fams.2024.1403901" target="_blank">[Link]</a>
+    </li>
+    <li style="margin-bottom: 10px;">
+      Karageorgos GM, ... <strong>Jung KJ</strong>, et al. (2024). "Deep learning-based automated pipeline for blood vessel detection..." <em>Frontiers in Bioinformatics</em>. 
+      <a href="https://doi.org/10.3389/fbinf.2023.1296667" target="_blank">[Link]</a>
+    </li>
+    <li style="margin-bottom: 10px;">
+      Jeon H, ... <strong>Jung KJ</strong>, et al. (2023). "Statistical power analysis for designing bulk, single-cell, and spatial transcriptomics experiments." <em>Biomolecules</em>. 
+      <a href="https://doi.org/10.3390/biom13020221" target="_blank">[Link]</a>
+    </li>
+  </ul>
+
+  <h3>In Preparation</h3>
+  <ul style="padding-left: 20px;">
+    <li style="margin-bottom: 10px;">
+      <strong>Jung KJ</strong>, et al. "A Multi-Task Foundation Representation for Immune-Gland Architecture in Prostate Cancer Histology."
+    </li>
+    <li style="margin-bottom: 10px;">
+      <strong>Jung KJ</strong>, et al. "A Multi-Modal, Immune- and Morphology-Aware Prostate Cancer Histology Dataset..."
+    </li>
+  </ul>
+
+  <h3>Collaboration Papers</h3>
+  <ul style="padding-left: 20px;">
+    <li style="margin-bottom: 10px;">
+      Schafer JM*, Song NJ*, ... <strong>Jung KJ</strong>, et al. (2025). "T cell subsets of urine-derived lymphocytes..." <em>Journal for ImmunoTherapy of Cancer</em>. 
+      <a href="https://doi.org/10.1136/jitc-2025-012050" target="_blank">[Link]</a>
+    </li>
+    <li style="margin-bottom: 10px;">
+      Song NJ, Xie J, <strong>Jung KJ</strong>, et al. (2025). "Tumor-Associated NK Cells Regulate Distinct CD8+ T-cell Differentiation..." <em>Cancer Discovery</em>. 
+      <a href="https://doi.org/10.1158/2159-8290.CD-24-1232" target="_blank">[Link]</a>
+    </li>
+    <li style="margin-bottom: 10px;">
+      Schwarz E, ... <strong>Jung KJ</strong>, et al. (2024). "Inhibition of Bruton's tyrosine kinase with PD-1 blockade..." <em>JCI Insight</em>. 
+      <a href="https://doi.org/10.1172/jci.insight.169927" target="_blank">[Link]</a>
+    </li>
+    <li style="margin-bottom: 10px;">
+      Deffenbaugh JL, <strong>Jung KJ</strong>, et al. (2024). "Novel model of multiple sclerosis..." <em>Journal of Neuroimmunology</em>. 
+      <a href="https://doi.org/10.1016/j.jneuroim.2024.578408" target="_blank">[Link]</a>
+    </li>
+    <li style="margin-bottom: 10px;">
+      Wen RM, ... <strong>Jung KJ</strong>, et al. (2024). "AZGP1 deficiency promotes angiogenesis in prostate cancer." <em>Journal of Translational Medicine</em>. 
+      <a href="https://doi.org/10.1186/s12967-024-05183-x" target="_blank">[Link]</a>
+    </li>
+  </ul>
+
+  <h3>Security Related Papers</h3>
+  <ul style="padding-left: 20px;">
+    <li style="margin-bottom: 10px;">
+        <strong>Jung KJ</strong>, Woo S (2018). "SECURITY Comparison..." <em>Intl. Journal of Protection, Security & Investigation</em>. 
+        <a href="https://doi.org/10.22471/protective.2018.3.2.06" target="_blank">[Link]</a>
+    </li>
+    <li style="margin-bottom: 10px;">
+        <strong>Jung KJ</strong>, et al. (2018). "Undetectable Task Bypassing OS Scheduler..." <em>ASIACCS</em>. 
+        <a href="https://doi.org/10.1145/3196494.320158" target="_blank">[Link]</a>
+    </li>
+    </ul>
+</section>
+
+<hr>
+
+<section id="experience" style="margin-bottom: 40px;">
+  <h2>Research & Work Experience</h2>
+  
+  <div style="margin-bottom: 20px;">
+    <strong>Biomedical Informatics Shared Resources (BISR)</strong> <span style="float: right;">2021 - Present</span><br>
+    <em>Role: AI Consultant & Technical Lead for Deep Learning</em><br>
+    <ul>
+      <li>Provided technical consultation on Deep Learning and Computer Vision to statisticians.</li>
+      <li>Lead tutorials and implemented neural network pipelines for the research group.</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <strong>Prostate Cancer Spatial Proteomics Research Group</strong> <span style="float: right;">2024 - Present</span><br>
+    <em>Role: Development of methods for computational pathology.</em>
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <strong>Center for AI & Bioinformatics in Immuno-Oncology (CATION)</strong> <span style="float: right;">2025 - Present</span><br>
+    <em>Role: Bioinformatician (Single cell & Spatial analysis).</em>
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <strong>IT Staff at Korea International School</strong> <span style="float: right;">2018 - 2019</span><br>
+    <em>Server/Network maintenance and Web page management.</em>
+  </div>
+</section>
+
+<hr>
+
+<section id="leadership" style="margin-bottom: 40px;">
+  <h2>Academic Leadership & Service</h2>
+  
+  <div style="margin-bottom: 20px;">
+    <strong>President, Korean Graduate Student Association (OSU)</strong> <span style="float: right;">2022 - 2024</span><br>
+    <ul>
+      <li>Led an executive team to organize large-scale academic seminars and networking events.</li>
+      <li>Managed annual budget and secured funding, resulting in a significant financial surplus for the next administration.</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <strong>President, Korean Engineering Graduate Student Association (OSU)</strong> <span style="float: right;">2021 - 2022</span><br>
+    <ul>
+      <li>Facilitated research exchanges and networking among engineering graduate students.</li>
+    </ul>
+  </div>
+</section>
+
+<hr>
+
+<section id="awards" style="margin-bottom: 40px;">
+  <h2>Awards & Teaching</h2>
+  <ul>
+    <li><strong>KSEA-KUSCO Graduate Scholarship</strong> ($2,000), 2023</li>
+    <li><strong>Best Poster Award</strong>, KSEA UKC, 2023</li>
+    <li><strong>Teaching Assistant:</strong> CSE1223 (Java), CSE3461 (Networking) at OSU.</li>
+  </ul>
+</section>
+
+<br>
+<p style="text-align: center; color: #777; font-size: 0.8em;">
+  &copy; 2025 Kyeong Joo Jung. Hosted on GitHub Pages.
+</p>

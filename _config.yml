@@ -1,33 +1,24 @@
 # Profile information
 name: Kyeong Joo Jung
-title: Kyeong Joo Jung
-description: Welcome
+title: Kyeong Joo Jung (Ph.D. Candidate)
+description: AI for Precision Oncology & Spatial Bioinformatics
 permalink: ':title/'
-baseurl:  # the subpath of your site, e.g. /blog
-url: "artemsheludko.pw" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # 만약 사이트가 깨지면 "/iamkj03.github.io" 로 바꿔보세요. 보통은 ""가 맞습니다.
+url: "https://iamkj03.github.io"
 
-# Social
-facebook: kyeongjoojung #Add your Facebook
-twitter: #Add your Twitter
-google-plus: #Add your Google+
-github: iamkj03 #Add your Github
-
-# Contact form
-email: iamkj03@naver.com #your-email@domain.com
-
-# Comments
-discus-identifier: # Add your Disqus identifier
-
-# Paginate
-paginate: 5
-paginate_path: /page:num/
+# Social Links (필요한 것만 남김)
+email: jung.759@osu.edu
+github: iamkj03
+linkedin: KJJung-  # CV에 있는 ID 그대로 넣었습니다.
+# facebook:  <-- 연구용으로 불필요하여 삭제
+# twitter: 
 
 # Build settings
 markdown: kramdown
-gems:
+theme: jekyll-theme-cayman # 혹시 테마가 설정되어 있다면 유지, 없으면 이 줄 무시
+plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
-include: [_pages]
