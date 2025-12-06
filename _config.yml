@@ -19,6 +19,7 @@ theme: jekyll-theme-cayman # 혹시 테마가 설정되어 있다면 유지, 없
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
