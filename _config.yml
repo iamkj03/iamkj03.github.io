@@ -21,7 +21,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-scholar
+#  - jekyll-scholar
 exclude:
   - Gemfile
   - Gemfile.lock
