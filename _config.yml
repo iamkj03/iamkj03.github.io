@@ -1,16 +1,16 @@
 # Profile information
 name: Kyeong Joo Jung
-title: Kyeong Joo Jung (Ph.D. Candidate)
-description: AI for Precision Oncology & Spatial Bioinformatics
+title: Kyeong Joo Jung | Postdoctoral Scholar at Stanford University
+description: AMultimodal AI for Precision Oncology, Computational Pathology, and Spatial Omics
 permalink: ':title/'
 baseurl: "" # 만약 사이트가 깨지면 "/iamkj03.github.io" 로 바꿔보세요. 보통은 ""가 맞습니다.
 url: "https://iamkj03.github.io"
 
 # Social Links (필요한 것만 남김)
-email: jung.759@osu.edu
+email: kyeongjoo.jung@stanford.edu
 github: iamkj03
 linkedin: KJJung-  # CV에 있는 ID 그대로 넣었습니다.
-google_scholar: https://scholar.google.com/citations?user=iamkj0829&user=SldleiIAAAAJ
+google_scholar: https://scholar.google.com/citations?user=SldleiIAAAAJ
 # facebook:  <-- 연구용으로 불필요하여 삭제
 # twitter: 
 
@@ -25,3 +25,5 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+  
