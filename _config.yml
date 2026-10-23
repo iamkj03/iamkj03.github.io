@@ -1,7 +1,7 @@
 # Profile information
 name: Kyeong Joo Jung
 title: Kyeong Joo Jung | Postdoctoral Scholar at Stanford University
-description: AMultimodal AI for Precision Oncology, Computational Pathology, and Spatial Omics
+description: Multimodal AI for Precision Oncology, Computational Pathology, and Spatial Omics
 permalink: ':title/'
 baseurl: "" # 만약 사이트가 깨지면 "/iamkj03.github.io" 로 바꿔보세요. 보통은 ""가 맞습니다.
 url: "https://iamkj03.github.io"
